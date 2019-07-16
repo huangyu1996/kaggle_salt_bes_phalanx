@@ -1,6 +1,6 @@
 from keras.engine.training import Model
 from keras.layers import SpatialDropout2D, Conv2D
-from segmentation_models import Unet
+from kaggle_salt_bes_phalanx.bes.segmentation_models import Unet
 
 
 def unet_resnext_50(input_shape, freeze_encoder):
