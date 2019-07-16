@@ -1,5 +1,5 @@
-from models.models_zoo import unet_resnext_50, unet_resnext_50_lovasz
-from segmentation_models.backbones.preprocessing import get_preprocessing
+from kaggle_salt_bes_phalanx.bes.models.models_zoo import unet_resnext_50, unet_resnext_50_lovasz
+from kaggle_salt_bes_phalanx.bes.segmentation_models.backbones.preprocessing import get_preprocessing
 
 
 def get_model(network, input_shape, freeze_encoder):
